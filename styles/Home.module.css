@@ -1,5 +1,12 @@
 .container {
   padding: 0 2rem;
+  background: rebeccapurple;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -38,6 +45,7 @@
 .title a:active {
   text-decoration: underline;
 }
+
 
 .title {
   margin: 0;
@@ -101,6 +109,17 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
 }
 
 .logo {
